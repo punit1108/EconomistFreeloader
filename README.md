@@ -1,5 +1,5 @@
-The Economist Freeloader
-========================
+The Economist Freeloader - The Chrome Extension
+===============================================
 
 ## Installation
 
