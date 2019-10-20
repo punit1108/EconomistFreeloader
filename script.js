@@ -16,7 +16,7 @@ function scrapper() {
     try {
         var blog_content = document.querySelectorAll(".blog-post__text p")
         var blog_title = document.querySelector(".main-content__blog-post .flytitle-and-title__title").textContent
-        var blog_tagline = document.querySelector(".main-content__blog-post .blog-post__rubric").textContent
+        var blog_tagline = document.querySelector(".blog-post__description").textContent
     } catch (e) {
         console.log(e)
         return;
